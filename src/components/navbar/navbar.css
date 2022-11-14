@@ -6,18 +6,18 @@
     padding: 2rem 6rem;
 }
 
-.gpt3__navbar-links{
+.gpt3__navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.gpt3__navbar-links_logo{
+.gpt3__navbar-links_logo {
     margin-right: 2rem;
 }
 
-.gpt3__navbar-links_logo img{
+.gpt3__navbar-links_logo img {
     width: 62.56px;
     height: 16.02px;
 }
@@ -27,15 +27,30 @@
     flex-direction: row;
 }
 
-.gpt3__navbar-sign{
+.gpt3__navbar-sign {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu container button {
+    padding: 0.5rem 1rem;
+    left: 1153px;
+    top: 55px;
+    font-family: var(--font-family);
+
+    background: #FF4820;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+}
+
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
-.gpt3__navbar-menu_container{
+.gpt3__navbar-menu_container {
     color: white;
     font-family: var(--font-family);
     font-weight: 500;
